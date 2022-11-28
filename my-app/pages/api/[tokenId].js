@@ -11,6 +11,6 @@ export default function handler(req, res) {
     res.status(200).json({
       name: "Crypto NFT #" + tokenId,
       description: "Crypto Dev is a collection of NFT for developers in crypto",
-      image: image_url + tokenId + ".png",
+      image: image_url + tokenId + ".svg",
     });
   }

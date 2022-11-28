@@ -351,7 +351,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Crypto Devs</title>
+        <title>Crypto Devs-NFT</title>
         <meta name="description" content="Whitelist-Dapp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -367,7 +367,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./crypto-nft/0.png" />
+          <img className={styles.image} src="./crypto-nft/0.svg" />
         </div>
       </div>
 
