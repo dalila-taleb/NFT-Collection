@@ -292,7 +292,7 @@ export default function Home() {
     if (!walletConnected) {
       return (
         <button onClick={connectWallet} className={styles.button}>
-          Connect your wallet 🛅
+          Connect to collect  🤑
         </button>
       );
     }
@@ -372,7 +372,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Made with &#10084;&#10084;&#10084; by Delilah from Crypto Devs team
       </footer>
     </div>
   );
