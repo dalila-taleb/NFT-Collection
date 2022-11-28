@@ -367,7 +367,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./nft.png" />
+          <img className={styles.image} src="./crypto-nft/0.png" />
         </div>
       </div>
 
