@@ -10,8 +10,8 @@ export default function handler(req, res) {
     // when sending back the response from the api
     // More info can be found here: https://docs.opensea.io/docs/metadata-standards
     res.status(200).json({
-      name: "Crypto NFT #" + tokenId,
-      description: "Crypto Dev is a collection of NFT for developers in crypto",
+      name: "MY Crypto NFT #" + tokenId,
+      description: "Crypto NFT is a collection of NFT for developers in crypto-devs team ",
       image: image_url + tokenId + ".svg",
     });
   }
